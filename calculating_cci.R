@@ -1,3 +1,4 @@
+# install.packages("medicalrisk")
 library(medicalrisk)  # Import library with functions for computing CCI
 
 icu_data <- read.csv("preprocessed_datasets/01_merged_diagnoses_traintest.csv")
